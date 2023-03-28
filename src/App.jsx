@@ -1,7 +1,10 @@
 import "./App.css";
+import { Input } from "./input";
 
 function App() {
-  return <></>;
+  return <>
+  <Input />
+  </>;
 }
 
 export default App;
