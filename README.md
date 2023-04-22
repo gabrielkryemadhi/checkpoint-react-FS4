@@ -22,7 +22,7 @@ Build a website where a user can input text in a text input field, press a butto
 
 Write an input field to get the text, and a "Save" button, which when pressed store the text in an array, as an object that looks like:
 
-    { text: "Input text here", id: 1, timestamp: 1676229451520 }
+    { text: "Input text here",id: 1, timestamp: 1676229451520 }
 
 After user clicks the save button, clear your text input, and refocus the text input tag.
 
@@ -41,7 +41,7 @@ Display all the items in three columns. One column with the items sorted by when
  - one more column with the same items, sorted alphabetically
  - one more column with the same items, sorted by character length
 
-Display an item in its own Item component. The Item component will have the text, and two buttons "Delete" and "Update". 
+Display an item in its own Item component. The Item component will have the text, and two buttons "Delete" and "Update".
 
 The Item should also have a character count, displayed at the left of the item. When user writes something in the item, the count changes.
 So for example, if our item text is:
@@ -68,7 +68,7 @@ The Update button will update the post text with whatever you edited in that pos
 Add a button called "Sort by Time", when clicked will sort the items by time, when clicked again it'll reverse sort the items.
 (Button only applies to first item column)
 
-## Button to sort and reverse sort alphabetically 
+## Button to sort and reverse sort alphabetically
 Add a button called "Sort by Text", when clicked will sort the items alphabetically, when clicked again it'll reverse sort the items.
 Hint: use a.text.localeCompare(b.text) in your sort fc.
 (Button only applies to first item column)
